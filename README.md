@@ -3,9 +3,9 @@
 
 ## 🧾 Task List
 
-1. Opening the web browser  
-2. Visit any site  
-3. Search content or login with credentials  
+1. Opening the web browser    
+2. Search content
+3. login with credentials  
 4. Undo and redo tabs  
 5. Page refresh  
 6. Use of explicit function  
