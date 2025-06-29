@@ -1,0 +1,10 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time 
+browser = webdriver.Firefox()
+browser.get('https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php')
+browser.maximize_window()
+browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+browser.find_element(By.XPATH, '//*[@id="hobbies"]').click()
+time.sleep(5)
+browser.quit()
